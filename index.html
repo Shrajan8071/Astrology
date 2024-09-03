@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet House Remedies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Planet House Remedies</h1>
+        <div class="dropdowns">
+            <label for="planet">Select Planet:</label>
+            <select id="planet">
+                <option value="">Select Planet</option>
+                <option value="Sun">Sun</option>
+                <option value="Moon">Moon</option>
+                <option value="Mars">Mars</option>
+                <option value="Mercury">Mercury</option>
+                <option value="Venus">Venus</option>
+                <option value="Jupiter">Jupiter</option>
+                <option value="Saturn">Saturn</option>
+                <option value="RahuKetu">Rahu/Ketu</option>
+            </select>
+            
+            <label for="house">Select House:</label>
+            <select id="house">
+                <option value="">Select House</option>
+                <option value="1st">1st House</option>
+                <option value="2nd">2nd House</option>
+                <option value="3rd">3rd House</option>
+                <option value="4th">4th House</option>
+                <option value="5th">5th House</option>
+                <option value="6th">6th House</option>
+                <option value="7th">7th House</option>
+                <option value="8th">8th House</option>
+                <option value="9th">9th House</option>
+                <option value="10th">10th House</option>
+                <option value="11th">11th House</option>
+                <option value="12th">12th House</option>
+            </select>
+        </div>
+        <button onclick="displayRemedy()">Show Remedy</button>
+        <p id="output"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
